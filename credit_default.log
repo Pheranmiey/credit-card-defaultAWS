@@ -1,0 +1,21 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.15:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [06/Jan/2024 18:17:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [06/Jan/2024 18:17:05] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [06/Jan/2024 18:18:20] "POST /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.8:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [07/Jan/2024 02:06:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [07/Jan/2024 02:07:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [07/Jan/2024 02:07:05] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [07/Jan/2024 02:08:07] "POST /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [07/Jan/2024 02:31:50] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [07/Jan/2024 02:32:10] "POST /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [07/Jan/2024 02:33:06] "GET /predictdata HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [07/Jan/2024 02:33:11] "POST /predictdata HTTP/1.1" 200 -
